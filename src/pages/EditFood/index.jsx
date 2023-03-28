@@ -103,7 +103,7 @@ export function EditFood() {
       <Content className="content">
         <ButtonBack />
 
-        {/* <Form encType='multipart/form-data'> */}
+        {/*<Form encType='multipart/form-data'>*/}
         <Form>
           <header>
             Edit Dish
@@ -201,7 +201,7 @@ export function EditFood() {
             </div>
           </fieldset>
 
-{/* MOBILE -------------------------------------------------- */}
+{/*mb*/}
           <fieldset className="mobile">
             <div className="small-input" id="picture-input">
               <span>Dish image</span>
