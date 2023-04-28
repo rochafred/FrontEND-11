@@ -1,5 +1,5 @@
 ##LINK deploy
-(https://main--genuine-horse-805076.netlify.app/)
+(https://magenta-zuccutto-c6504f.netlify.app/)
 
 O programa possui duas personas distintas: o administrador e os usuários.
 O administrador é o responsável pelo gerenciamento do restaurante e tem permissão para criar, visualizar, editar e excluir qualquer prato do cardápio a qualquer momento. Cada prato cadastrado deve conter uma imagem, um nome, uma categoria, uma breve descrição, os ingredientes e o preço. Ao clicar no botão "adicionar prato", o administrador receberá uma mensagem de confirmação e será redirecionado para a página principal do sistema.
@@ -32,4 +32,5 @@ Faça o download (ou clone) deste repositório para sua máquina.
 Abra o terminal na pasta raiz do projeto e execute o comando npm install para instalar as dependências necessárias.
 Verifique o arquivo package.json para visualizar as dependências do projeto e, caso alguma esteja faltando, execute o comando npm install <nome da dependência> para instalá-la.
 Execute as migrações de banco de dados com o comando npx knex migration:latest.
+Acesso de admin: - admin@email.com - pssw: 123456
 Agora você está pronto para executar o aplicativo. Basta rodar o comando npm run build no terminal.
